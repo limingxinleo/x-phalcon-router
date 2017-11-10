@@ -18,7 +18,7 @@ class Router extends PhalconRouter
     /**
      * Mounts a group of routes in the router
      */
-    public function mountCall(Closure $func)
+    public function group(Closure $func)
     {
         $group = $func();
         if (!$group instanceof GroupInterface) {
