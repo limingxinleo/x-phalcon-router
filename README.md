@@ -1,6 +1,8 @@
 # x-phalcon-router
 a phalcon router component
 
+[![Build Status](https://travis-ci.org/limingxinleo/x-phalcon-router.svg?branch=master)](https://travis-ci.org/limingxinleo/x-phalcon-router)
+
 ## 安装
 `composer require limingxinleo/x-phalcon-router`
 
